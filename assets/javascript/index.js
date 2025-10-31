@@ -46,8 +46,8 @@ const playingObject = {
   frames: 0,
   position: { x: 60, y: 50 },
   speed: 0,
-  gravity: 0.09,
-  thrust: 2.3,
+  gravity: 0.07,
+  thrust: 2.1,
   rotatation: 0,
   scale: 0.65,
   imgAnimation: [
@@ -151,7 +151,7 @@ const background = {
 // ─── DRAW THE GROUND ────────────────────────────────────────────────────────────
 const ground = {
   groundImg: new Image(),
-  dx: 1.5,
+  dx: 1.2,
   position: { x: 0, y: 0 },
   drewGround() {
     canvasTx.drawImage(
